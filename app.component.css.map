@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app.component.scss"],
+  "sourcesContent": ["h2 {\r\n    background-color: white;\r\n}"],
+  "mappings": ";AAAA;AACI,oBAAA;;",
+  "names": []
+}

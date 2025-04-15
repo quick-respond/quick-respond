@@ -1,0 +1,133 @@
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+h1 {
+  color: #ED2E67;
+  text-transform: uppercase;
+}
+
+section {
+  max-width: 800px;
+}
+
+.step1 {
+  button {
+    margin-top: -5px;
+  }
+}
+
+canvas {
+  display: block;
+  max-width: 240px;
+  max-height: 240px;
+  margin: 16px 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: #636363 1px solid;
+}
+
+.qr-string {
+  width: 100%;
+  max-width: 800px;
+}
+
+button {
+  background-color: #ED2E67;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
+  margin-right: 3px;
+
+  &:hover {
+    background-color: #ED2E67;
+    color: white;
+    box-shadow: 0px 0px 4px #ED2E67;
+    transition: all ease-in-out .2s;
+  }
+}
+
+.display-table,
+.modify-table {
+  margin-bottom: 12px;
+
+  table {
+    width: 100%;
+    max-width: 800px;
+    border: #636363 1px solid;
+    border-radius: 5px;
+  }
+
+  thead {
+    text-align: left;
+    background-color: #ED2E67;
+  }
+
+  th {
+    padding: 3px 8px;
+  }
+
+  td {
+    padding: 3px 8px;
+    border: #636363 1px solid;
+  }
+}
+
+.before-after {
+  h3 {
+    margin: 5px;
+  }
+
+  .before,
+  .after {
+    width: 100%;
+    max-width: 800px;
+  }
+
+  canvas {
+    display: block;
+    max-width: 800px;
+    max-height: 800px;
+    margin: 16px 0;
+  }
+}
+
+.disclaimer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #e2e2e2;
+  text-transform: uppercase;
+
+  h2 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    ;
+  }
+
+  ul {
+    padding-left: 1rem;
+    list-style-type: square;
+  }
+
+  li {
+    font-size: 0.8rem;
+    color: #636363;
+    line-height: 1.2rem;
+    list-style-type: square;
+  }
+}
